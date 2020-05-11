@@ -7,11 +7,11 @@
 body {
     background-color: coral;
 }
+
 .container {
     padding: 50px;
     text-align: center;
     min-width: 1200px;
-    
 }
 
 .input {
@@ -37,8 +37,6 @@ i {
     cursor: pointer;
 }
 
-
-
 #todo-btn {
     margin-left: 30px;
 	box-shadow:inset 0px 1px 0px 0px #d9fbbe;
@@ -56,10 +54,12 @@ i {
 	text-decoration:none;
 	text-shadow:0px 1px 0px #86ae47;
 }
+
 #todo-btn:hover {
 	background:linear-gradient(to bottom, #a5cc52 5%, #b8e356 100%);
 	background-color:#a5cc52;
 }
+
 #todo-btn:active {
 	position:relative;
 	top:1px;
